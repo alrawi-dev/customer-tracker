@@ -43,9 +43,5 @@ console.log("After updates:", customers);
 
 // show final customer summary
 customers.forEach(function(customer) {
-    console.log(
-        customer.name + " | " +
-        customer.email + " | Total Purchases: " +
-        customer.purchases.length
-    );
+    console.log(`${customer.name} | ${customer.email} | Total Purchases: ${customer.purchases.length}`);
 });
